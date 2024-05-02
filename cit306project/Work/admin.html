@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Page</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<h2>Admin Login</h2>
+
+<form id="adminLoginForm">
+  <label for="username">Username:</label><br>
+  <input type="text" id="username" name="username" required><br>
+  <label for="password">Password:</label><br>
+  <input type="password" id="password" name="password" required><br><br>
+  <button type="submit">Login</button>
+</form>
+
+<div id="adminPage" style="display: none;">
+  <h2>Admin Page</h2>
+  <div id="registrationRecords">
+    <!-- Registration records will be displayed here -->
+  </div>
+</div>
+
+<script src="admin.js"></script>
+
+</body>
+</html>
